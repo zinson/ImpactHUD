@@ -210,12 +210,9 @@ event HudHealthBonusPulse
 	//Animate	PlayerStatusHealthValueBG		FgColor		"SuperBlack" 		Linear 0.2 0.4
 	//Animate 	PlayerStatusHealthValue			FgColor		"0 127 255 255"		Linear 0.0 0.2
 	//Animate 	PlayerStatusHealthValue			FgColor		"TanLight"			Linear 0.0 0.4
-	Animate		PlayerStatusHealthValue			FgColor		"0 127 255 255" 	Linear 0.0 0.00000075
-	Animate		PlayerStatusHealthValue			FgColor		"0 127 255 255"		Linear 0.125 0.175
+	Animate		PlayerStatusHealthValue			FgColor		"0 127 255 255" 	Linear 0.0 0.3
 	Animate		PlayerStatusHealthValueCROSS	FgColor		"0 127 255 255" 	Linear 0.0 0.00000075
-	Animate		PlayerStatusHealthValueCROSS	FgColor		"0 127 255 255"		Linear 0.125 0.175
-	Animate		PlayerStatusHealthValueSpec		FgColor		"0 127 255 255" 	Linear 0.0 0.00000075
-	Animate		PlayerStatusHealthValueSpec		FgColor		"0 127 255 255"		Linear 0.125 0.175
+	Animate		PlayerStatusHealthValueSpecTournamet		FgColor		"0 127 255 255" 	Linear 0.0 0.00000075
 	
 	Animate		PlayerStatusHealthImageBGTOP	Position		"c-1000 36" 	Linear 0.0 0.0
 	Animate		PlayerStatusHealthImageBGTOP2	Position		"-2 36"			Linear 0.0 0.0
@@ -242,6 +239,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop 0.0
 	//Animate	PlayerStatusHealthValueBG		FgColor		"SuperBlack" 		Linear 0.0 0.0001
 	Animate	PlayerStatusHealthValue				FgColor		"SuperBlack" 		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueSpecTournamet		FgColor		"SuperWhite" 	Linear 0.0 0.00000075
 	Animate	PlayerStatusHealthValueCROSS				FgColor		"SuperBlack" 		Linear 0.0 0.0
 	
 	Animate		PlayerStatusHealthImageBGTOP	Position	"-2 36" 	Linear 0.0 0.0
@@ -264,8 +262,16 @@ event HudHealthDyingPulse
 	//Animate	PlayerStatusHealthValueBG	FgColor		"208 0 0 255" 		Linear 0.0 0.0
 	Animate	PlayerStatusHealthValue			FgColor		"208 0 0 255" 		Linear 0.0 0.2
 	Animate	PlayerStatusHealthValue			FgColor		"TanLight" 			Linear 0.2 0.4
-	Animate	PlayerStatusHealthValueSpec		FgColor		"208 0 0 255" 		Linear 0.0 0.2
-	Animate	PlayerStatusHealthValueSpec		FgColor		"TanLight" 			Linear 0.2 0.4
+	Animate	PlayerStatusHealthValueBG		FgColor		"SuperBlack"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthValueBG2		FgColor		"SuperBlack"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthValueBG3		FgColor		"SuperBlack"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthValueBG4		FgColor		"SuperBlack"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthValueBG5		FgColor		"SuperBlack"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthValueBG6		FgColor		"SuperBlack"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthValueBG7		FgColor		"SuperBlack"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthValueBG8		FgColor		"SuperBlack"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthValueSpecTournamet		FgColor		"208 0 0 255" 		Linear 0.0 0.2
+	Animate	PlayerStatusHealthValueSpecTournamet		FgColor		"TanLight" 			Linear 0.2 0.4
 	Animate	PlayerStatusHealthValueCROSS	FgColor		"SuperWhite" 		Linear 0.0 0.2
 	
 	Animate		PlayerStatusHealthImageBGTOP	Position		"c-1000 36" 	Linear 0.0 0.0
@@ -291,9 +297,16 @@ event HudHealthDyingPulseLoop
 
 event HudHealthDyingPulseStop
 {
-	//Animate	PlayerStatusHealthValueBG		FgColor		"SuperBlack" 		Linear 0.0 0.0001
 	Animate	PlayerStatusHealthValue				FgColor		"SuperBlack" 			Linear 0.0 0.0
-	Animate	PlayerStatusHealthValueSpec			FgColor		"SuperWhite" 			Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueBG		FgColor		"SuperWhite"		Linear 0.0 0.002
+	Animate	PlayerStatusHealthValueBG2		FgColor		"SuperWhite"		Linear 0.0 0.002
+	Animate	PlayerStatusHealthValueBG3		FgColor		"SuperWhite"		Linear 0.0 0.002
+	Animate	PlayerStatusHealthValueBG4		FgColor		"SuperWhite"		Linear 0.0 0.002
+	Animate	PlayerStatusHealthValueBG5		FgColor		"SuperWhite"		Linear 0.0 0.002
+	Animate	PlayerStatusHealthValueBG6		FgColor		"SuperWhite"		Linear 0.0 0.002
+	Animate	PlayerStatusHealthValueBG7		FgColor		"SuperWhite"		Linear 0.0 0.002
+	Animate	PlayerStatusHealthValueBG8		FgColor		"SuperWhite"		Linear 0.0 0.002
+	Animate	PlayerStatusHealthValueSpecTournament		FgColor		"SuperWhite" 			Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueCROSS		FgColor		"SuperBlack" 			Linear 0.0 0.0
 	
 	Animate		PlayerStatusHealthImageBGTOP	Position	"-2 36" 	Linear 0.0 0.0
@@ -316,9 +329,17 @@ event HudLowAmmoPulse
 {
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"				Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"					Linear 0.125 0.075
-	Animate	AmmoInClip					FgColor		"RedSolid" 		Linear 0.0 0.0001 // pvhud
-	Animate	AmmoInReserve				FgColor		"RedSolid" 		Linear 0.0 0.0001 // pvhud
-	Animate	AmmoNoClip					FgColor		"RedSolid" 		Linear 0.0 0.0001 // pvhud
+	Animate	AmmoInClip					FgColor		"RedSolid" 		Linear 0.0 0.0001 
+	Animate	AmmoShadow					FgColor		"SuperBlack"	Linear 0.0 0.0001
+	Animate	AmmoShadow2					FgColor		"SuperBlack"	Linear 0.0 0.0001
+	Animate	AmmoShadow3					FgColor		"SuperBlack"	Linear 0.0 0.0001
+	Animate	AmmoShadow4					FgColor		"SuperBlack"	Linear 0.0 0.0001
+	Animate	AmmoShadow5					FgColor		"SuperBlack"	Linear 0.0 0.0001
+	Animate	AmmoShadow6					FgColor		"SuperBlack"	Linear 0.0 0.0001
+	Animate	AmmoShadow7					FgColor		"SuperBlack"	Linear 0.0 0.0001
+	Animate	AmmoShadow8					FgColor		"SuperBlack"	Linear 0.0 0.0001
+	Animate	AmmoInReserve				FgColor		"RedSolid" 		Linear 0.0 0.0001 
+	Animate	AmmoNoClip					FgColor		"RedSolid" 		Linear 0.0 0.0001 
 
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -331,9 +352,17 @@ event HudLowAmmoPulseLoop
 
 event HudLowAmmoPulseStop
 {
-	Animate	AmmoInClip					FgColor		"SuperBlack" 		Linear 0.0 0.0001 // pvhud
-	Animate	AmmoInReserve				FgColor		"SuperWhite" 		Linear 0.0 0.0001 // pvhud
-	Animate	AmmoNoClip					FgColor		"SuperBlack" 		Linear 0.0 0.0001 // pvhud
+	Animate	AmmoInClip					FgColor		"SuperBlack" 		Linear 0.0 0.0001
+	Animate	AmmoShadow					FgColor		"SuperWhite"	Linear 0.0 0.0001
+	Animate	AmmoShadow2					FgColor		"SuperWhite"	Linear 0.0 0.0001
+	Animate	AmmoShadow3					FgColor		"SuperWhite"	Linear 0.0 0.0001
+	Animate	AmmoShadow4					FgColor		"SuperWhite"	Linear 0.0 0.0001
+	Animate	AmmoShadow5					FgColor		"SuperWhite"	Linear 0.0 0.0001
+	Animate	AmmoShadow6					FgColor		"SuperWhite"	Linear 0.0 0.0001
+	Animate	AmmoShadow7					FgColor		"SuperWhite"	Linear 0.0 0.0001
+	Animate	AmmoShadow8					FgColor		"SuperWhite"	Linear 0.0 0.0001	
+	Animate	AmmoInReserve				FgColor		"SuperWhite" 		Linear 0.0 0.0001 
+	Animate	AmmoNoClip					FgColor		"SuperBlack" 		Linear 0.0 0.0001 
 
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
@@ -817,7 +846,7 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-//================================CoD LIKE CROSSHAIR===============================
+////////////////////////////CoD LIKE CROSSHAIR////////////////////////////
 Animate    xHairSlashLT FgColor "SuperWhite"     Linear 0.0 0.00001
 Animate    xHairSlashLT FgColor "0 0 0 0"         Linear 0.15 0.1
 
@@ -830,23 +859,23 @@ Animate    xHairSlashRT FgColor "0 0 0 0"         Linear 0.15 0.1
 Animate    xHairSlashRB FgColor "SuperWhite"     Linear 0.0 0.00001
 Animate    xHairSlashRB FgColor "0 0 0 0"         Linear 0.15 0.1
 
-//===========================================
-///////////////////////////////Fog's v3///////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+///////////////////////////////Fog's v3//////////////////////////////////
 	Animate fogCrosshair 	FgColor 	"255 0 0 255" 		Linear 0.0 0.00001
 	Animate fogCrosshair 	FgColor 	"255 255 255 255" 	Linear 0.10 0.10001
 	
 	// Set the second line ("255 255 255 255") to whatever color you have changed
 	// your crosshair to be. So if you crosshair is green, the second line should
 	// also have that same value.
-///////////////////////////////////////////////////////////////////////
-//////////////////////////Fog's v1///////////////////////
-	Animate fogCrosshair1	FgColor 	"255 0 0 255" 		Linear 0.0 0.00001
-	Animate fogCrosshair1 	FgColor 	"255 255 255 255" 	Linear 0.10 0.10001
-	
-	// Set the second line ("255 255 255 255") to whatever color you have changed
-	// your crosshair to be. So if you crosshair is green, the second line should
-	// also have that same value.
+/////////////////////////////////////////////////////////////////////////
+///////////////////////////yacrosshair///////////////////////////////////
+Animate yacrosshair 	FgColor 	"255 0 0 255" 		Linear 0.0 0.00001
+Animate yacrosshair		FgColor 	"255 255 255 255" 	Linear 0.10 0.10001
+/////////////////////////////////////////////////////////////////////////
 }
+
+//===========================================
+
 event SpyWarningFlash
 {
 	Animate	EnemyCountImageBG	BgColor	"RedSolid"		Linear 0.0 0.01

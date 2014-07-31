@@ -113,7 +113,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuildTitle"
-		"font"			"DefaultLargeShadow"
+		"font"			"Impact21"
 		"labelText"		"Build some shit"
 		"textAlignment"	"west"
 		"xpos"			"8"
@@ -173,6 +173,7 @@
 		"wide"			"72" //"100"
 		"tall"			"96" //"124"
 		"visible"		"1"
+		"font"			"Impact12"
 	}	
 	
 	"active_item_2"

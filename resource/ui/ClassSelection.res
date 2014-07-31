@@ -35,8 +35,8 @@
 		"scaleImage"		"1"
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
-		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
 		"fillcolor"				"SuperBlack"
 	}
 
@@ -101,10 +101,10 @@
 		"visible"			"1"
 		"enabled"			"1"
         "tabPosition"	"0"
-		"labelText"			"&?  RandomPC"
+		"labelText"			"&?  Random"
 		"textAlignment"		"west"
 		"Command"			"joinclass random"
-		"font"				"DefaultShadow"
+		"font"				"Impact14"
 		"fgcolor"		"128 128 128 255"
 		"defaultFgColor_override"			"128 128 128 255"
 		"armedFgColor_override"				"255 255 255 255"
@@ -145,7 +145,7 @@
 		"labelText"			"&1  Scout"
 		"textAlignment"		"west"
 		"Command"			"joinclass scout"
-		"font"				"DefaultShadow"
+		"font"				"Impact14"
 
         "fgcolor"		"128 128 128 255"
 		"defaultFgColor_override"			"128 128 128 255"
@@ -174,7 +174,7 @@
 		"labelText"			"&2  Soldier"
 		"textAlignment"		"west"
 		"Command"			"joinclass soldier"
-		"font"				"DefaultShadow"
+		"font"				"Impact14"
         "fgcolor"		"128 128 128 255"
 		"defaultFgColor_override"			"128 128 128 255"
 		"armedFgColor_override"				"255 255 255 255"
@@ -202,7 +202,7 @@
 		"labelText"			"&3  Pyro"
 		"textAlignment"		"west"
 		"Command"			"joinclass pyro"
-		"font"				"DefaultShadow"
+		"font"				"Impact14"
         "fgcolor"		"128 128 128 255"
 		"defaultFgColor_override"			"128 128 128 255"
 		"armedFgColor_override"				"255 255 255 255"
@@ -242,7 +242,7 @@
 		"labelText"			"&4  Demoman"
 		"textAlignment"		"west"
 		"Command"			"joinclass demoman"
-		"font"				"DefaultShadow"
+		"font"				"Impact14"
         "fgcolor"		"128 128 128 255"
 		"defaultFgColor_override"			"128 128 128 255"
 		"armedFgColor_override"				"255 255 255 255"
@@ -270,7 +270,7 @@
 		"labelText"			"&5  Heavy"
 		"textAlignment"		"west"
 		"Command"			"joinclass heavyweapons"
-		"font"				"DefaultShadow"
+		"font"				"Impact14"
         "fgcolor"		"128 128 128 255"
 		"defaultFgColor_override"			"128 128 128 255"
 		"armedFgColor_override"				"255 255 255 255"
@@ -297,7 +297,7 @@
 		"labelText"			"&6  Engineer"
 		"textAlignment"		"west"
 		"Command"			"joinclass engineer"
-		"font"				"DefaultShadow"
+		"font"				"Impact14"
         "fgcolor"		"128 128 128 255"
 		"defaultFgColor_override"			"128 128 128 255"
 		"armedFgColor_override"				"255 255 255 255"
@@ -337,7 +337,7 @@
 		"labelText"			"&7  Medic"
 		"textAlignment"		"west"
 		"Command"			"joinclass medic"
-		"font"				"DefaultShadow"
+		"font"				"Impact14"
         "fgcolor"		"128 128 128 255"
 		"defaultFgColor_override"			"128 128 128 255"
 		"armedFgColor_override"				"255 255 255 255"
@@ -364,7 +364,7 @@
 		"labelText"			"&8  Sniper"
 		"textAlignment"		"west"
 		"Command"			"joinclass sniper"
-		"font"				"DefaultShadow"
+		"font"				"Impact14"
         "fgcolor"		"128 128 128 255"
 		"defaultFgColor_override"			"128 128 128 255"
 		"armedFgColor_override"				"255 255 255 255"
@@ -391,7 +391,7 @@
 		"labelText"			"&9  Spy"
 		"textAlignment"		"west"
 		"Command"			"joinclass spy"
-		"font"				"DefaultShadow"
+		"font"				"Impact14"
         "fgcolor"		"128 128 128 255"
 		"defaultFgColor_override"			"128 128 128 255"
 		"armedFgColor_override"				"255 255 255 255"
@@ -695,7 +695,7 @@
         "tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"west"
-		"font"			"Default"
+		"font"			"Impact12"
 		"fgcolor"		"TanLight"
 	}
 
@@ -713,7 +713,7 @@
         "tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"west"
-		"font"			"Default"
+		"font"			"Impact12"
 		"fgcolor"		"TanLight"
 	}
 
@@ -731,7 +731,7 @@
         "tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"west"
-		"font"			"Default"
+		"font"			"Impact12"
 		"fgcolor"		"TanLight"
 	}
 
@@ -749,7 +749,7 @@
         "tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"west"
-		"font"			"Default"
+		"font"			"Impact12"
 		"fgcolor"		"TanLight"
 	}
 
@@ -767,7 +767,7 @@
         "tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"west"
-		"font"			"Default"
+		"font"			"Impact12"
 		"fgcolor"		"TanLight"
 	}
 
@@ -785,7 +785,7 @@
         "tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"west"
-		"font"			"Default"
+		"font"			"Impact12"
 		"fgcolor"		"TanLight"
 	}
 
@@ -803,7 +803,7 @@
         "tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"west"
-		"font"			"Default"
+		"font"			"Impact12"
 		"fgcolor"		"TanLight"
 	}
 
@@ -821,8 +821,12 @@
         "tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"west"
-		"font"			"Default"
+		"font"			"Impact12"
 		"fgcolor"		"TanLight"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
 	}
 
 	"numSpy"
@@ -839,7 +843,7 @@
         "tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"west"
-		"font"			"Default"
+		"font"			"Impact12"
 		"fgcolor"		"TanLight"
 	}
 
@@ -890,16 +894,16 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 
-		"xpos"			"9999"//"0"
-		"ypos"			"9999"//"0"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"480"
 		"tall"			"480"
 
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 
 		"render_texture"	"0"
 		"fov"			"25"

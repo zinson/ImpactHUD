@@ -30,8 +30,8 @@
 		"scaleImage"		"1"			
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"			
-		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 	}
 
 	"RedTeamBGBorder"
@@ -49,8 +49,8 @@
 		"scaleImage"		"1"			
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"			
-		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 	}
 	
 	"SysMenu"
@@ -85,7 +85,7 @@
 
 	"mapname"
 	{
-		"ControlName"	"Label"
+		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
 		"xpos"			"c-150"
 		"ypos"			"c-72"
@@ -96,8 +96,8 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"center"
-		"font"			"DefaultLarger"
-		"fgcolor"		"255 255 255 255"
+		"font"			"Impact25"
+		"fgcolor"		"SuperWhite"
 	}
 	
 	"teambutton0"
@@ -116,11 +116,11 @@
 		"textAlignment"	"center"
 		"command"		"jointeam blue"
 		"team"			"3"
-		"font"			"DefaultLargeShadow"
+		"font"			"Impact18"
 		"fgcolor"		"HUDBlueTeamSolid"
 	
 		"defaultFgColor_override"			"104 124 155 255"
-		"armedFgColor_override"				"64 64 255 255"
+		"armedFgColor_override"				"160 160 255 255"
 		"depressedFgColor_override"			"255 255 0 255"
 	}
 
@@ -140,7 +140,7 @@
 		"textAlignment"	"center"
 		"command"		"jointeam red"
 		"team"			"2"
-		"font"			"DefaultLargeShadow"
+		"font"			"Impact18"
 		"fgcolor"		"HUDRedTeamSolid"
 		
 		"defaultFgColor_override"			"180 92 77 255"
@@ -163,7 +163,7 @@
 		"labelText"		"&1. Auto Join"
 		"textAlignment"	"west"
 		"command"		"jointeam auto"
-		"font"			"DefaultLargeShadow"
+		"font"			"Impact18"
 		"fgcolor"		"192 192 192 255"
 		
 		"defaultFgColor_override"			"192 192 192 255"
@@ -186,10 +186,10 @@
 		"labelText"		"&2. Spectate" //"2. Spectate"
 		"textAlignment"	"west"
 		"command"		"jointeam spectate"
-		"font"			"DefaultLargeShadow"
-		"fgcolor"		"128 128 128 255"
+		"font"			"Impact18"
+		"fgcolor"		"192 192 192 255"
 		
-		"defaultFgColor_override"			"128 128 128 255"
+		"defaultFgColor_override"			"192 192 192 255"
 		"armedFgColor_override"				"255 255 255 255"
 		"depressedFgColor_override"			"255 255 0 255"
 	}
@@ -198,7 +198,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"r96"
+		"xpos"			"c-40"
 		"ypos"			"r80"
 		"zpos"			"6"
 		"wide"			"80"

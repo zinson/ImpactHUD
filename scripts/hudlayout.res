@@ -1,51 +1,21 @@
 "Resource/HudLayout.res"
 {
-///////////////////////////////Fog's v1/////////////////////////////
-fogCrosshair1
+	yacrosshair
 	{
-		"controlname"	"CExLabel"
-		"fieldname"	"fogCrosshair1"
-		
+		"controlName"	"CExLabel"
+		"fieldName"	"yacrosshair"
 		"visible"	"1"
 		"enabled"	"1"
-
-		"xpos"		"-3"
-		"ypos"		"2"
+		"xpos"		"c-101"
+		"ypos"		"c-101"
 		"zpos"		"2"
-		
-		"wide"		"f0"
-		"tall"		"480"
-
-		"font"		"fogCrosshair1"
-		//
-		// Choose what kind
-		//
-		// "fogCrosshair1"         - Pixelated and outlined
-		// "fogCrosshairPlain1"    - Pixelated and not outlined
-		// "fogCrosshairSmooth1"   - Antialiased, not outlined
-		
-
-		"labeltext"	"2"
-		//
-		// Choose your crosshair
-		// 
-		// Change the "1" to represent the crosshair you want displayed in the Crosshairs.jpg
-		// Remember, each resolution behaves differently, if your crosshair is skewed, not centered,
-		// you will have to play around with the "xpos", "ypos", "wide" and "tall" values.
-		// THERE ARE NO FIXED NUMBERS FOR THIS
-
-		"textAlignment"	"center"
-		
-		"fgcolor"	"255 255 255 255"
-		//
-		// Crosshair color
-		// 
-		// If you change this, remember to change the same value in HudAnimations_tf.txt
-		// Otherwise the crosshair will change back to the default white color after
-		// flashing upon giving damage.
+		"tall"		"200"
+		"wide"		"202"
+		"font"		"yacrosshairOutline"
+		"labeltext"	"a"
+		"fgcolor"	"SuperWhite"
+		"textalignment"	"center"
 	}
-///////////////////////////////End of Fog's v1//////////////////////
-///////////////////////////////Fog's v3/////////////////////////////
 	fogCrosshair
 	{
 		"controlname"	"CExLabel"
@@ -86,7 +56,62 @@ fogCrosshair1
 		// Crosshair color
 		// 
 	}
-///////////////////////////////End of Fog's v3/////////////////////////////
+	CrossHairKonrWings
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"CrossHairKonrWings"
+		"visible"		"0"
+		"enabled"		"1"
+		"zpos"			"2"
+
+		"xpos"			"c-29"
+		"ypos"			"c-24"
+		"wide"			"50"
+		"tall"			"50"
+
+		"font"			"CrossHairKonrWings"
+		"labelText"		"Z"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	xHair
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"xHair"
+		"visible"		"0"
+		"enabled"		"1"
+		"zpos"			"1"
+
+		"xpos"			"c-12"
+		"ypos"			"c-12"
+		"wide"			"23"
+		"tall"			"24"
+
+		"font"			"xHair"
+		"labelText"		"+"
+		"textAlignment"	"center"
+	}
+	xHairCircle
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"xHairCircle"
+		"visible"		"0"
+		"enabled"		"1"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-100"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"xHairCircle"
+		"labelText"		"o"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 192"
+	}
 //==============================================================
 //  		CoD LIKE CROSSHAIR (HITMAKER)
 //==============================================================
@@ -159,25 +184,7 @@ fogCrosshair1
     		"textAlignment"   "center" 
   	}
 //==============================================================
-	CrossHairKonrWings
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"CrossHairKonrWings"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-29"
-		"ypos"			"c-24"
-		"wide"			"50"
-		"tall"			"50"
-
-		"font"			"CrossHairKonrWings"
-		"labelText"		"Z"
-		"textAlignment"	"center"	
-		
-		"fgcolor"		"255 255 255 255"
-	}
+	
 	"CTFKillStreakNotice"
 	{
 		"fieldName"		"CTFKillStreakNotice"
@@ -190,43 +197,6 @@ fogCrosshair1
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
 	}
-	xHair
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"xHair"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"1"
-
-		"xpos"			"c-12"
-		"ypos"			"c-12"
-		"wide"			"23"
-		"tall"			"24"
-
-		"font"			"xHair"
-		"labelText"		"+"
-		"textAlignment"	"center"
-	}
-	xHairCircle
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"xHairCircle"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-100"
-		"ypos"			"c-100"
-		"wide"			"200"
-		"tall"			"200"
-
-		"font"			"xHairCircle"
-		"labelText"		"o"
-		"textAlignment"	"center"	
-		
-		"fgcolor"		"255 255 255 192"
-	}
-	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -510,7 +480,7 @@ fogCrosshair1
 	BuildingStatus_Engineer
 	{
 		"fieldName" "BuildingStatus_Engineer"
-		"visible"	"1"
+		"visible"	"01"
 		"enabled"	"1"
 		"xpos"		"0"
 		"ypos"		"8"

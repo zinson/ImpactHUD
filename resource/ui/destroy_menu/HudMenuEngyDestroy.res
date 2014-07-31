@@ -97,7 +97,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuildTitle"
-		"font"			"DefaultLargeShadow"
+		"font"			"Impact21"
 		"labelText"		"Blow shit up"
 		"textAlignment"	"west"
 		"xpos"			"8"

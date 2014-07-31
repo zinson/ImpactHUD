@@ -2389,46 +2389,39 @@ Scheme
 
 		
 		////////////////////////////
-		// START Impacthud custom fonts
+		// START ImpactHUD custom fonts
 		////////////////////////////
-		//////////Fog's v1////////////
-		fogCrosshair1
+		
+		//////////yacrosshair///////
+		"yacrosshairOutline"
 		{
 			"1"
 			{
-				"name"		"Crosshairs1"
-				"tall"		"28" //28 default
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
+				"name"		"Crosshair"
+				"tall"		"24"
 				"outline"	"1"
 			}
 		}
-		fogCrosshairPlain1
+		"yacrosshairSmooth"
 		{
 			"1"
 			{
-				"name"		"Crosshairs1"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
+				"name"		"Crosshair"
+				"tall"		"24"
+				"antialias"	"1"
 				"outline"	"0"
 			}
-		}
-		fogCrosshairSmooth1
+		}	
+		"yacrosshairPixel"
 		{
 			"1"
 			{
-				"name"		"Crosshairs1"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
+				"name"		"Crosshair"
+				"tall"		"24"
+				"antialias"	"0"
 				"outline"	"0"
 			}
-		}
-		
+		}		
 		//////////Fog's v3////////////
 		"fogCrosshairPlain"
 		{
@@ -3313,7 +3306,7 @@ Scheme
 	}
 	
 	////////////////////////////
-	// END pvhud custom fonts
+	// END ImpactHUD custom fonts
 	////////////////////////////
 
 	//
@@ -5115,8 +5108,8 @@ Scheme
 			//"image"					"../hud/color_panel_browner"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		ReplayDefaultBorder
 		{
@@ -5250,6 +5243,11 @@ Scheme
 		{
 			"font" "resource/crosshairs1.ttf"
 			"name" "Crosshairs1"
+		}
+		"13"
+		{
+			"font"	"resource/Crosshair.ttf"
+			"name"	"Crosshair"
 		}
 	}
 }

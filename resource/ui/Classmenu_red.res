@@ -32,8 +32,8 @@
 		"scaleImage"		"1"			
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"			
-		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 	}
 
 	"teamname"
@@ -94,7 +94,7 @@
 		"tall"				"16"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"&?  RandomPC"
+		"labelText"			"&?  Random"
 		"textAlignment"		"west"
 		"Command"			"joinclass random"
 		"font"				"DefaultShadow"

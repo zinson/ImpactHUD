@@ -32,8 +32,8 @@
 		"scaleImage"		"1"			
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"			
-		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 	}
 	
 	"teamname"
@@ -94,10 +94,10 @@
 		"tall"				"16"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"&?  RandomPC"
+		"labelText"			"&?  Random"
 		"textAlignment"		"west"
 		"Command"			"joinclass random"
-		"font"				"DefaultShadow"
+		"font"				"Impact12"
 		"defaultFgColor_override"			"104 124 155 255"
 		"armedFgColor_override"				"192 192 192 255"
 		"depressedFgColor_override"			"255 255 0 255"

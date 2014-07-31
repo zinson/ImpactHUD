@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c160"
-		"ypos"			"r79" //"r64"
+		"ypos"			"r76" //"r64"
 		"wide"			"130"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -37,7 +37,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"76"
-		"ypos"					"25"
+		"ypos"					"22"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -51,7 +51,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Impact12"
-		"fgcolor"				"SuperWhite"
+		"fgcolor_override"				"SuperWhite"
 	}
 
 	"ItemEffectMeter"

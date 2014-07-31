@@ -76,7 +76,7 @@
 	
 	"ActiveTimerBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"-18"
 		"ypos"				"-6"
@@ -86,6 +86,13 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../hud/objectives_timepanel_active_bg"	
+		
+		"src_corner_height"	"12"				// pixels inside the image
+		"src_corner_width"	"12"
+			
+		"draw_corner_width"	"0" //"3"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0" //"3"
+		
 		"scaleImage"		"1"	
 	}
 }

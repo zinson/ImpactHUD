@@ -75,7 +75,7 @@
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueSpec"
+		"fieldName"		"PlayerStatusHealthValueSpecTournament"
 		"xpos"			"-4"
 		"ypos"			"8"
 		"zpos"			"5"
@@ -91,7 +91,7 @@
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueSpecShadow"
+		"fieldName"		"PlayerStatusHealthValueSpecShadowTournament"
 		"xpos"			"-3"
 		"ypos"			"9"
 		"zpos"			"5"
