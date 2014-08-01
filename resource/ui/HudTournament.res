@@ -172,7 +172,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
 				"font"			"DefaultSmall"
-				"xpos"			"30"
+				"xpos"			"10"
 				"ypos"			"18"
 				"zpos"			"5"
 				"wide"			"23"

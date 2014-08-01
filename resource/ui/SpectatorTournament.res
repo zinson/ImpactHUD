@@ -48,6 +48,19 @@
 				"fillcolor"		"Superblack"
 				"enabled"		"1"
 			}
+			"SpecPanelBG2"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SpecPanelBG2"
+				"xpos"			"90"
+				"ypos"			"0"
+				"zpos"			"4"
+				"wide"			"25"
+				"tall"			"15"
+				"visible"		"1"
+				"fillcolor"		"0 0 0 100"
+				"enabled"		"1"
+			}
 
 			"playername"
 			{
@@ -126,7 +139,7 @@
 				"fieldName"			"HealthIcon"
 				"xpos"				"92" //"59"
 				"ypos"				"-7"
-				"zpos"				"3"
+				"zpos"				"5"
 				"wide"				"20"
 				"tall"				"20"
 				"visible"			"1"
@@ -192,7 +205,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
 				"font"			"Impact10"
-				"xpos"			"70"
+				"xpos"			"-23"
 				"ypos"			"2"
 				"zpos"			"6"
 				"wide"			"40"

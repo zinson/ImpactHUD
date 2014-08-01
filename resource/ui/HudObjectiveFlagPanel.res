@@ -128,7 +128,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"Impact50" //HudFontBig"
+		"font"			"Impact35" //HudFontBig"
 		"font_hidef"	"HudFontGiant"
 		"font_lodef"	"HudFontGiant"
 		"fgcolor"		"HUDBlueTeamSolid"
@@ -153,7 +153,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-158"
+		"xpos"			"c-159"
 		"ypos"			"r32"
 		"ypos_lodef"	"r87"
 		"ypos_hidef"	"r92"
@@ -166,7 +166,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"Impact50"
+		"font"			"Impact35"
 		"font_hidef"	"HudFontGiant"
 		"font_lodef"	"HudFontGiant"
 		"fgcolor"		"SuperBlack"
@@ -191,7 +191,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c93"
+		"xpos"			"c83"
 		"ypos"			"r33"
 		"ypos_lodef"	"r88"
 		"ypos_hidef"	"r93"
@@ -204,7 +204,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"Impact50"
+		"font"			"Impact35"
 		"font_hidef"	"HudFontGiant"
 		"font_lodef"	"HudFontGiant"
 		"fgcolor"		"HUDRedTeamSolid"		
@@ -229,7 +229,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c95"
+		"xpos"			"c84"
 		"ypos"			"r32"
 		"ypos_lodef"	"r87"
 		"ypos_hidef"	"r92"
@@ -242,9 +242,9 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"Impact50"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
+		"font"			"Impact35"
+		"font_hidef"	"Impact35"
+		"font_lodef"	"Impact35"
 		"fgcolor"		"SuperBlack"		
 		
 		"if_hybrid"
@@ -310,12 +310,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
-		"xpos"			"c-60"	[$X360]
 		"ypos"			"r22"	[$WIN32]
-		"ypos"			"r48"	[$X360]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
-		"wide"			"120"	[$X360]
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -323,7 +320,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
+		"font"			"Impact14"
 		"fgcolor"		"TanLight"
 		
 		"if_hybrid"
@@ -342,24 +339,22 @@
 		}
 	}	
 			
-	"PlayingToBG"
+	"PlayingToShadow"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayingToBG"
-		"xpos"			"c-75"	[$WIN32]
-		"xpos"			"c-70"	[$X360]
-		"ypos"			"r3100"	[$WIN32]
-		"ypos"			"r51"	[$X360]
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayingToShadow"
+		"xpos"			"c-69"	[$WIN32]
+		"ypos"			"r21"	[$WIN32]
 		"zpos"			"3"
-		"wide"			"150"	[$WIN32]
-		"wide"			"140"	[$X360]
-		"tall"			"38"	[$WIN32]
-		"tall"			"35"	[$X360]
-		"visible"		"0"
+		"wide"			"140"	[$WIN32]
+		"tall"			"30"	[$WIN32]
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
-		"scaleImage"	"1"	
+		"labelText"		"#TF_PlayingTo"
+		"textAlignment"	"center"
+		"font"			"Impact14"
+		"fgcolor"		"SuperBlack"
+		
 		
 		"if_hybrid"
 		{
@@ -382,7 +377,7 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-135"
-		"ypos"			"r95"	[$WIN32]
+		"ypos"			"r105" //"r95"	[$WIN32]
 		"ypos"			"r116"	[$X360]
 		"zpos"			"5"
 		"wide"			"160"

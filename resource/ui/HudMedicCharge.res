@@ -173,6 +173,24 @@
 		"fgcolor"       "SuperWhite"
 		"font"			"Impact80"
 	}
+	"ChargeLabelShadow9"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelShadow9"
+		"xpos"			"471" //"170"
+		"ypos"			"116" //"118" //"198"
+		"zpos"			"10"
+		"wide"			"140"
+		"tall"			"100" //"15"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"west"
+		"fgcolor"       "SuperWhite"
+		"font"			"Impact80"
+	}
     "ChargeLabel2"
     {
        "ControlName"           "CExLabel"
@@ -244,6 +262,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "SuperWhite"
+		"bgcolor_override" "200 200 200 40"
 		"textAlignment"	"Left"
 	}
 

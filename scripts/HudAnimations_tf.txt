@@ -212,7 +212,7 @@ event HudHealthBonusPulse
 	//Animate 	PlayerStatusHealthValue			FgColor		"TanLight"			Linear 0.0 0.4
 	Animate		PlayerStatusHealthValue			FgColor		"0 127 255 255" 	Linear 0.0 0.3
 	Animate		PlayerStatusHealthValueCROSS	FgColor		"0 127 255 255" 	Linear 0.0 0.00000075
-	Animate		PlayerStatusHealthValueSpecTournamet		FgColor		"0 127 255 255" 	Linear 0.0 0.00000075
+	Animate		PlayerStatusHealthValueSpecTournament		FgColor		"0 127 255 255" 	Linear 0.0 0.00000075
 	
 	Animate		PlayerStatusHealthImageBGTOP	Position		"c-1000 36" 	Linear 0.0 0.0
 	Animate		PlayerStatusHealthImageBGTOP2	Position		"-2 36"			Linear 0.0 0.0
@@ -239,7 +239,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop 0.0
 	//Animate	PlayerStatusHealthValueBG		FgColor		"SuperBlack" 		Linear 0.0 0.0001
 	Animate	PlayerStatusHealthValue				FgColor		"SuperBlack" 		Linear 0.0 0.0
-	Animate	PlayerStatusHealthValueSpecTournamet		FgColor		"SuperWhite" 	Linear 0.0 0.00000075
+	Animate	PlayerStatusHealthValueSpecTournament		FgColor		"SuperWhite" 	Linear 0.0 0.00000075
 	Animate	PlayerStatusHealthValueCROSS				FgColor		"SuperBlack" 		Linear 0.0 0.0
 	
 	Animate		PlayerStatusHealthImageBGTOP	Position	"-2 36" 	Linear 0.0 0.0
@@ -270,8 +270,8 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthValueBG6		FgColor		"SuperBlack"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthValueBG7		FgColor		"SuperBlack"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthValueBG8		FgColor		"SuperBlack"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthValueSpecTournamet		FgColor		"208 0 0 255" 		Linear 0.0 0.2
-	Animate	PlayerStatusHealthValueSpecTournamet		FgColor		"TanLight" 			Linear 0.2 0.4
+	Animate	PlayerStatusHealthValueSpecTournament		FgColor		"208 0 0 255" 		Linear 0.0 0.2
+	Animate	PlayerStatusHealthValueSpecTournament		FgColor		"TanLight" 			Linear 0.2 0.4
 	Animate	PlayerStatusHealthValueCROSS	FgColor		"SuperWhite" 		Linear 0.0 0.2
 	
 	Animate		PlayerStatusHealthImageBGTOP	Position		"c-1000 36" 	Linear 0.0 0.0
@@ -533,6 +533,7 @@ event HudMedicCharged
 	Animate ChargeLabelShadow6 FgColor   "SuperBlack"        Linear 0.0 0.0001
 	Animate ChargeLabelShadow7 FgColor   "SuperBlack"        Linear 0.0 0.0001
 	Animate ChargeLabelShadow8 FgColor   "SuperBlack"        Linear 0.0 0.0001
+	Animate ChargeLabelShadow9 FgColor   "SuperBlack"        Linear 0.0 0.0001
 	Animate	ChargeLabel2 	FgColor		"0 127 255 255"		Linear 0.0 0.0001
 
 	RunEvent HudMedicChargedLoop	0.6
@@ -558,9 +559,10 @@ event HudMedicChargedStop
 	Animate ChargeLabelShadow6 FgColor   "SuperWhite"        Linear 0.0 0.0001
 	Animate ChargeLabelShadow7 FgColor   "SuperWhite"        Linear 0.0 0.0001
 	Animate ChargeLabelShadow8 FgColor   "SuperWhite"        Linear 0.0 0.0001
+	Animate ChargeLabelShadow9 FgColor   "SuperWhite"        Linear 0.0 0.0001
 	Animate	ChargeLabel2 	FgColor		"SuperWhite"		Linear 0.0 0.0001
 
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"SuperWhite"		Linear 0.0 0.0001
 }
 
 //====================================

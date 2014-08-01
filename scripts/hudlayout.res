@@ -1252,7 +1252,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-320"
-		"ypos"			"300"
+		"ypos"			"370"
 		"wide"			"640"
 		"tall"			"100"
 	}
