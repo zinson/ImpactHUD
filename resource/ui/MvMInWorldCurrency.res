@@ -49,8 +49,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
-		"font"			"HudFontMedBold"
-		"fgcolor"		"TanLight"
+		"font"			"Impact21"
+		"fgcolor"		"SuperWhite"
 		"xpos"			"18"
 		"ypos"			"0"
 		"zpos"			"4"
@@ -66,8 +66,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
-		"font"			"HudFontMedBold"
-		"fgcolor"		"TanLight"
+		"font"			"Impact21"
+		"fgcolor"		"SuperWhite"
 		"xpos"			"18"
 		"ypos"			"0"
 		"zpos"			"4"
@@ -82,7 +82,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
-		"font"			"HudFontMedBold"
+		"font"			"Impact21"
 		"fgcolor"		"SuperBlack"
 		"xpos"			"20"
 		"ypos"			"2"

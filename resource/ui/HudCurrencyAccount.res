@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"HudFontMedBold"
-		"fgcolor"		"TanLight"
+		"font"			"Impact21"
+		"fgcolor"		"SuperWhite"
 		"xpos"			"11"
 		"ypos"			"57"
 		"zpos"			"3"
@@ -21,9 +21,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
-		"font"			"HudFontMedBold"
+		"font"			"Impact21"
 		"fgcolor"		"SuperBlack"
-		"xpos"			"13"
+		"xpos"			"12"
 		"ypos"			"59"
 		"zpos"			"3"
 		"wide"			"90"

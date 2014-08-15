@@ -32,7 +32,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"wide"			"162"
+		"wide"			"640"
 		"tall"			"11"
 
 		"src_corner_height"		"23"
