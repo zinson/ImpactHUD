@@ -417,8 +417,8 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
 		"xpos"			"c-25"
-		"ypos"			"r95"	[$WIN32]
-		"ypos"			"r116"	[$X360]
+		"ypos"			"r105"	[$WIN32]
+		"ypos"			"r105"	[$X360]
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"

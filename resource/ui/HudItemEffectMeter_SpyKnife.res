@@ -1,13 +1,14 @@
 "Resource/UI/HudItemEffectMeter_SpyKnife.res"
 {
 
+
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c104" //"c180"
-		"ypos"			"r82" //"r64"
+		"xpos"			"c-70" //"c104" //"c180"
+		"ypos"			"377" //"399" //"r64"
 		"wide"			"140" //"130"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -26,12 +27,26 @@
 	
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ItemEffectMeterLabel"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"					"57"
+		"ypos"					"3"
+		"zpos"					"4"
+		"wide"					"42"
+		"tall"					"16"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"visible_minmode"		"1"
+		"textAlignment_minmode"	"west"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_ENERGYDRINK"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"DefaultSmall"
+		"fgcolor_override"		"Superblack"
 	}
 
 	"ItemEffectMeter"
@@ -53,101 +68,19 @@
 		"brighttext"	"0"
 	}
 
-	"ItemEffectMeter25"
+	"ItemEffectMeterBG2"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"	"ItemEffectMeter25"
-		"xpos"		"39"
-		"ypos"		"8"
-		"zpos"		"3"
-		"wide"		"2"
-		"tall"		"9"
+		"fieldName"	"ItemEffectMeterBG2"
+		"xpos"		"8" //"39"
+		"ypos"		"6"
+		"zpos"		"1"
+		"wide"		"124"
+		"tall"		"10"
 		"visible"	"1"
 		"enabled"	"1"
 		"fillcolor"	"0 0 0 255"		
 	}
+}
 
-	"ItemEffectMeter50"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"ItemEffectMeter50"
-		"xpos"		"69"
-		"ypos"		"8"
-		"zpos"		"3"
-		"wide"		"2"
-		"tall"		"9"
-		"visible"	"1"
-		"enabled"	"1"
-		"fillcolor"	"0 0 0 255"		
-	}
-
-	"ItemEffectMeter75"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"ItemEffectMeter75"
-		"xpos"		"99"
-		"ypos"		"8"
-		"zpos"		"3"
-		"wide"		"2"
-		"tall"		"9"
-		"visible"	"1"
-		"enabled"	"1"
-		"fillcolor"	"0 0 0 255"		
-	}
-	
-	"ItemEffectColor25"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"ItemEffectColor25"
-		"xpos"		"10"
-		"ypos"		"14"
-		"zpos"		"2"
-		"wide"		"30"
-		"tall"		"2"
-		"visible"	"1"
-		"enabled"	"1"
-		"fillcolor"	"255 255 255 64"		
-	}
-
-	"ItemEffectColor50"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"ItemEffectColor50"
-		"xpos"		"39"
-		"ypos"		"14"
-		"zpos"		"2"
-		"wide"		"30"
-		"tall"		"2"
-		"visible"	"1"
-		"enabled"	"1"
-		"fillcolor"	"255 255 255 96"		
-	}
-
-	"ItemEffectColor75"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"ItemEffectColor75"
-		"xpos"		"69"
-		"ypos"		"14"
-		"zpos"		"2"
-		"wide"		"31"
-		"tall"		"2"
-		"visible"	"1"
-		"enabled"	"1"
-		"fillcolor"	"255 255 255 160"		
-	}
-
-	"ItemEffectColor100"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"ItemEffectColor100"
-		"xpos"		"100"
-		"ypos"		"14"
-		"zpos"		"2"
-		"wide"		"30"
-		"tall"		"2"
-		"visible"	"1"
-		"enabled"	"1"
-		"fillcolor"	"255 255 255 208"		
-	}
 }

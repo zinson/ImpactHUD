@@ -275,7 +275,7 @@
 		"zpos"		"1"
 		"wide"		"284"
 		"tall"		"11"
-		"visible"	"1"
+		"visible"	"0"
 		"enabled"	"1"
 		"fillcolor"	"0 0 0 255"
 	}
@@ -310,6 +310,7 @@
 		"enabled"		"0"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
+		"fgcolor_override" 		"235 226 202 255"
 		"brighttext"	"0"
 	}
 

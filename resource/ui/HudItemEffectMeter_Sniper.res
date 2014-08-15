@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c180"
-		"ypos"			"r64"
+		"xpos"			"c160"
+		"ypos"			"r76"
 		"wide"			"130"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -36,7 +36,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"76"
-		"ypos"					"25"
+		"ypos"					"22"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -46,10 +46,11 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
-		"textAlignment"			"east"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"Impact12"
+		"fgcolor_override"		"SuperWhite"
 	}
 
 	"ItemEffectMeter"
@@ -76,10 +77,11 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"east"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
+		"font"					"Impact21"
+		"fgcolor"				"SuperWhite"
 	}
 	"ItemEffectMeterCountBG"
 	{
@@ -95,11 +97,12 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"east"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"0 0 0 255"
-		"font"					"HudFontMedium"
+		"font"					"Impact21"
+		"fgcolor"				"SuperBlack"
 	}
 
 }

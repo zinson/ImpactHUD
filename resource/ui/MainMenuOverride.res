@@ -336,7 +336,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PVHUDLabel"
 		"font"			"Impact18"
-		"labelText"		"ImpactHUD v1"
+		"labelText"		"#ImpactHUD"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
 		"ypos"			"93"
@@ -1579,7 +1579,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
+		"xpos"			"c-250" //"c0"
 		"ypos"			"102"
 		"zpos"			"1"
 		"wide"			"210"
@@ -2804,7 +2804,7 @@
 	{
 		"ControlName"	"CExplanationPopup"
 		"fieldName"		"LoadoutHighlightPanel"
-		"xpos"			"c-55"
+		"xpos"			"c-155" //"c-55"
 		"ypos"			"280"
 		"zpos"			"100"
 		"wide"			"250"
